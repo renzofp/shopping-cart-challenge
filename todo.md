@@ -41,12 +41,16 @@
 -   [x] Quantity update form/button per item
 -   [x] Make the cart look decent
 
-## 7. Polish
+## 7. Polish functionality
 
 -   [ ] Page title, simple SEO, Favicon
 -   [ ] Change quantity update to look like Amazon's and update it via AJAX
 -   [ ] Include delete item when quantity is 1
--   [ ] Make the shopping cart look awesome
+
+## 8. Make it look awesome
+
+-   [ ] Make a globals css file and import it on app.css
+-   [ ] Use headlines and update fontsizes
 -   [ ] Add animation, hover states and small details
 -   [ ] Super quick lighthouse improvements (performance + accessibility)
 -   [ ] Add installation steps and tools used to `README.md`
