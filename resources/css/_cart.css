@@ -1,0 +1,64 @@
+.cart-status {
+  background-color: #213227;
+  border-radius: 0.25rem;
+  border: 1px solid #28a745;
+  color: #a3f7b5;
+  font-weight: bold;
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.quantity-form {
+  align-items: center;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.quantity-form input {
+  background-color: #1e1e1e;
+  border: 1px solid #555;
+  color: #f0f0f0;
+  padding: 0.25rem;
+  width: 3.75rem;
+}
+
+.quantity-form button {
+  background: #333;
+  border: 1px solid #444;
+  color: #fff;
+  cursor: pointer;
+  padding: 0.25rem 0.5rem;
+}
+
+.quantity-form button:hover {
+  background: #444;
+}
+
+.checkout-button {
+  background: #ffd814;
+  border-radius: 0.5rem;
+  border: 1px solid #fcd200;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+}
+
+.item-total {
+  font-size: 1.1rem;
+  margin-left: auto;
+}
+
+.checkout-summary {
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  max-height: 300px;
+  padding: 1rem;
+}
+
+.summary-line {
+  display: flex;
+}
+
+.summary-price {
+  margin-left: auto;
+}

@@ -54,6 +54,7 @@
 -   [ ] Add animation, hover states and small details
 -   [ ] Super quick lighthouse improvements (performance + accessibility)
 -   [ ] Add installation steps and tools used to `README.md`
+-   [ ] Document code
 
 ## 8. Deploy
 

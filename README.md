@@ -4,7 +4,7 @@
 
 ## About The Project
 
-The Laravel Dummy Cart is a simple functioning shopping cart without an actual store that supports it. It was built merely as a pretty cart demo. These are the core functionalities developed:
+The Laravel Dummy Cart is a simple functioning shopping cart without an actual store. It was built merely as a pretty cart demo. These are the core functionalities developed:
 
 -   Manual seed url enabled when visiting `/seed-cart`
 -   Ability to update item quantity on the fly, just like on Amazon!
