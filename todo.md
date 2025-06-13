@@ -32,7 +32,7 @@
     -   [x] GST (5%)
     -   [x] QST (9.975%)
     -   [x] Grand total
--   [x] Update quantity via input field
+-   [x] Update quantity via buttons click
 -   [x] Recalculate totals live on quantity update
 
 ## 6. Frontend (HTML/JS/CSS)
@@ -44,16 +44,19 @@
 ## 7. Polish functionality
 
 -   [ ] Page title, simple SEO, Favicon
--   [ ] Change quantity update to look like Amazon's and update it via AJAX
--   [ ] Include delete item when quantity is 1
+-   [ ] Add image field to cart_items table
+-   [x] Change quantity update to look like Amazon's
+-   [ ] Make quantity update without a page reload
+-   [ ] Disallow users to spam click change quantity until the change is applied
+-   [ ] Include a delete item button at the bottom of each card
 
 ## 8. Make it look awesome
 
--   [ ] Make a globals css file and import it on app.css
--   [ ] Use headlines and update fontsizes
+-   [x] Make a globals css file and import it on app.css
+-   [x] Use headlines and update fontsizes
 -   [ ] Add animation, hover states and small details
 -   [ ] Super quick lighthouse improvements (performance + accessibility)
--   [ ] Add installation steps and tools used to `README.md`
+-   [x] Add installation steps and tools used to `README.md`
 -   [ ] Document code
 
 ## 8. Deploy
