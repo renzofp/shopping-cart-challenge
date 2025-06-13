@@ -43,27 +43,28 @@
 
 ## 7. Polish functionality
 
--   [ ] Page title, simple SEO, Favicon
--   [ ] Add image field to cart_items table
+-   [x] Page title, simple SEO, Favicon
+-   [x] Add image field to cart_items table and display them beautifully on the cart
 -   [x] Change quantity update to look like Amazon's
--   [ ] Make quantity update without a page reload
--   [ ] Disallow users to spam click change quantity until the change is applied
--   [ ] Include a delete item button at the bottom of each card
+-   [x] Make quantity update without a page reload
+-   [x] Disallow users to spam click change quantity until the change is applied
+-   [x] Include a delete item button at the bottom of each card
 
 ## 8. Make it look awesome
 
 -   [x] Make a globals css file and import it on app.css
 -   [x] Use headlines and update fontsizes
--   [ ] Add animation, hover states and small details
--   [ ] Super quick lighthouse improvements (performance + accessibility)
+-   [x] Add animation, hover states and small details
+-   [ ] Lighthouse improvements (performance + accessibility)
 -   [x] Add installation steps and tools used to `README.md`
 -   [ ] Document code
+-   [x] Debug
 
 ## 8. Deploy
 
 -   [ ] Dump database and upload to hosting
 -   [ ] Upload files to hosting
--   [ ] Add details to `.env` file
+-   [ ] Add details to uploaded `.env` file
 
 ## 9. Test
 

@@ -11,6 +11,7 @@ Route::get('/', function () {
 Route::controller(CartController::class)->group(function () {
     Route::get('/cart', 'index')->name('cart.index');
     Route::post('/cart/update/{cartItem}', 'update')->name('cart.update');
+    Route::delete('/cart/delete/{cartItem}', 'destroy')->name('cart.destroy');
 });
 
 Route::get('/seed-cart', function () {
