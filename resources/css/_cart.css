@@ -62,3 +62,18 @@
 .summary-price {
   margin-left: auto;
 }
+
+.cart-image-wrapper {
+  align-items: center;
+  display: flex;
+  height: 180px;
+  justify-content: center;
+  overflow: hidden;
+  width: 180px;
+}
+
+.cart-image {
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}

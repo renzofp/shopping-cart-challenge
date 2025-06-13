@@ -1,15 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container shopping-cart">
+<div class="container">
     <h1 class="text-left">Order Summary</h1>
 
     <div class="grid md:grid-6 gap-4">
-        <div class="md:col-span-4">
+        <div class="sm:col-span-4 lg:col-span-3">
             @foreach ($items as $item)
                 <div class="grid card sm:grid-2 gap-4">
                     <div class="sm:col-span-1">
-                        <img src="https://via.assets.so/game.jpg?w=180&h=180" alt="{{ $item->product_name }}">
+                        <div class="cart-image-wrapper">
+                            <img class="cart-image" src="{{ $item->image }}" alt="{{ $item->product_name }}">
+                        </div>
                     </div>
                     <div class="sm:col-span-1">
                         <p class="bold">
@@ -40,7 +42,7 @@
         </div>
         
         @if ($items->count())
-            <div class="checkout-summary md:col-span-2">
+            <div class="checkout-summary sm:col-span-2  lg:col-span-3">
                 <p class="summary-line">
                     Items ({{ $items->count() }}):
                     <span class="summary-price">
